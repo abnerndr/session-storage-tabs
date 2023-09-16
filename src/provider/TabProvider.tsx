@@ -1,10 +1,10 @@
 import { ReactNode, createContext, useEffect, useState } from "react";
 import { BrowserTabTracker } from "browser-session-tabs";
 
-interface TabProps {
-  sessionId: number | unknown;
-  tabKey: number | unknown;
-}
+export type TabProps = {
+  sessionId: any;
+  tabKey: any;
+};
 
 export const TabContext = createContext({} as TabProps);
 
@@ -13,8 +13,8 @@ export default function TabContextProvider({
 }: {
   children?: ReactNode;
 }) {
-  const [sessionId, setSessionId] = useState<number | unknown>(0);
-  const [tabKey, setTabKey] = useState<number | unknown>(0);
+  const [sessionId, setSessionId] = useState<any>(null);
+  const [tabKey, setTabKey] = useState<any>(null);
 
   BrowserTabTracker.initialize({
     storageKey: "tabs",
