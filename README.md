@@ -39,9 +39,9 @@ function Index() {
 
   return (
     <div>
-      <span>{sessionId}</span>
-      <span>{tabKey}</span>
-    </div>
+      <span>{sessionId}<span/>
+      <span>{tabKey}<span/>
+    <div/>
   );
 }
 ```
