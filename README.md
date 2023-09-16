@@ -5,11 +5,11 @@
 Instale session-storage-tabs usando npm ou yarn
 
 ```bash
-  npm install @abnerndr/session-storage-tabs
+  npm install @abner.dev/session-storage-tabs
 ```
 
 ```bash
-  yarn add @abnerndr/session-storage-tabs
+  yarn add @abner.dev/session-storage-tabs
 ```
 
 ## Uso/Exemplos
@@ -17,7 +17,7 @@ Instale session-storage-tabs usando npm ou yarn
 - Configure o projeto no arquivo raiz `_page.tsx` no nextjs ou `main.tsx` no reactjs:
 
 ```typescript
-import TabContextProvider from '@abnerndr/session-storage-tabs'
+import TabContextProvider from '@abner.dev/session-storage-tabs'
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
 
 ```typescript
 import { useContext } from "react";
-import { TabContext } from "@abnerndr/session-storage-tabs";
+import { TabContext } from "@abner.dev/session-storage-tabs";
 
 function Index() {
   const { sessionId, tabKey } = useContext(TabContext);
