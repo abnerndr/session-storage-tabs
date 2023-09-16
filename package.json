@@ -1,7 +1,7 @@
 {
-  "name": "@abnerndr/session-storage-tabs",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@abner.dev/session-storage-tabs",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -25,5 +25,17 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "![Logo](https://i.ibb.co/3T4SpXz/233321312.jpg)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abnerndr/session-storage-tabs.git"
+  },
+  "author": "abnerndr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abnerndr/session-storage-tabs/issues"
+  },
+  "homepage": "https://github.com/abnerndr/session-storage-tabs#readme"
 }
